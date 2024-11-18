@@ -3,7 +3,7 @@ import { Textarea } from "./ui/textarea";
 
 export default function VideoAnalysis() {
   return (
-    <div className="border-2 rounded-md border-primary max-h-full p-8 w-1/2 ">
+    <div className="border-2 rounded-md border-primary max-h-full p-8 w-1/2 blur-sm">
       <div className="aspect-w-16 aspect-h-9 mb-6">
         <div className="w-full h-full  rounded-lg flex items-center justify-center flex-col ">
           <h1 className="text-3xl font-bold">Analysis Result</h1>
